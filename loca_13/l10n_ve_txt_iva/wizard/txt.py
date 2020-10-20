@@ -159,7 +159,7 @@ class BsoftContratoReport2(models.TransientModel):
         #ruta="C:/Odoo 13.0e/server/odoo/LocalizacionV13/l10n_ve_txt_iva/wizard/txt_generacion.txt"
         #ruta="/mnt/extra-addons/l10n_ve_txt_iva/wizard/txt_generacion.txt"
         #ruta="/home/odoo/src/user/LocalizacionV13/l10n_ve_txt_iva/wizard/txt_generacion.txt"
-        ruta="/src/enterprise/txt_generacion.txt"
+        ruta="/home/odoo/src/enterprise/txt_generacion.txt"
         #raise UserError(_('mama = %s')%rec.type)
 
         with open(ruta, "w") as file:
